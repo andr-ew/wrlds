@@ -38,11 +38,15 @@ lp  1 0 f r l p o t m m m m
 
 controls managed by preset are configurable
 
-microscript
-
 mainly abt interacting with existing objects in the ecosystem (like connecting crow and nest, or sending a random operator somewhere)
 
-forth interpreter ????? :):)
+scenes
 
+no wrlds/wrlds.lua, instead the script ships with a handful of scene.lua scripts as examples loaded via SELECT. users are encouraged to add scenes which include `lib/wrlds` and share them on lines. to facilitate reloading the 
+entire wrlds script state including live softcut buffers is saved between loads
+
+crow
+
+include a bowery folder + add facilities to load scripts from norns. scenes by default load a blank script to crow but can define crow scripts to load from the bowery
 
 ```
